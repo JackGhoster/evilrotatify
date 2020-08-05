@@ -1,0 +1,17 @@
+{
+
+    "manifest_version": 2,
+    "name": "Rotatify",
+    "version": "1.0",
+  
+    "icons": {
+      "48": "evilrotation.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.vc.ru/*"],
+        "js": ["rotatify.js"]
+      }
+    ]
+}
